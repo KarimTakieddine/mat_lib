@@ -81,7 +81,7 @@ T & mat_lib::type::Vector4<T>::operator[]
 }
 
 template<typename T>
-T * mat_lib::type::Vector4<T>::toPtr()
+T const * mat_lib::type::Vector4<T>::toPtr() const
 {
 	return &x;
 }

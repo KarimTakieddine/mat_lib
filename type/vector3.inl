@@ -75,7 +75,7 @@ T & mat_lib::type::Vector3<T>::operator[]
 }
 
 template<typename T>
-T * mat_lib::type::Vector3<T>::toPtr()
+T const * mat_lib::type::Vector3<T>::toPtr() const
 {
 	return &x;
 }

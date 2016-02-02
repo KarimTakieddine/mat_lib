@@ -43,7 +43,7 @@ namespace mat_lib
 				size_t index
 			);
 
-			inline T * toPtr();
+			inline T const * toPtr() const;
 
 		private:
 			Vector3<T> data[3];
